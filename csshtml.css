@@ -1,0 +1,63 @@
+*{
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+nav{
+    background-color: rgba(8, 8, 87, 0.915);
+    color: white;
+    top: 0;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+ }
+
+.links ul{
+   display: flex;
+   flex-direction: row;
+}
+
+
+.links li{
+  list-style-type: none;
+}
+
+.links li a{
+    font-size: 13px;
+ 
+}
+
+button{
+    background-color: rgba(8, 8, 87, 0.915);
+    
+}
+ 
+.welcome{
+    background-color:  rgba(8, 8, 87, 0.915);
+    font-size: 50px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.welcome p{
+   color:rgb(234, 234, 138);
+   font-size: 25px;
+}
+
+.welcome a{
+  color: white;
+  
+}
+
+p.ques
+
+p.question:active{
+
+}
+
+p .question:hover{
+ 
+}
