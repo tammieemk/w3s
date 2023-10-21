@@ -10,6 +10,13 @@
   display: flex;
   height: 60px;
   padding-bottom: 10px;
+
+}
+
+.top-navlinks{
+  top: 0;
+  position: sticky;
+  background-color:white;
 }
 
 .topnav ul{
@@ -67,7 +74,6 @@
   color: white;
   top: 0;
   width: 100%;
-  position: sticky;
   padding: 10px 0px 10px 0px;
 }
 
