@@ -7,39 +7,39 @@
 
 
 .topnav{
-  background-color: white;
-  width: 100%;
-  padding: 5px 7px 5px 7px;
   display: flex;
-  position: sticky;
+  height: 60px;
+  padding-bottom: 10px;
 }
 
 .topnav ul{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0px 0px 0px;
+ 
 }
 
 .topnav li{
  list-style-type: none;
- padding: 6px 5px 0px 0px;
 }
 
-.topnav li a{
-  font-size: 14px;
-  padding-right: 10px;
-  margin: 0px 0px 0px 10px;
+/*.topnav li a{
+ 
+ 
+}*/
+
+.icon-10{
+  width: 40px;
+  height: 40px;
+  margin: 0px 0px 10px 20px;
 }
 
 .tps{
-  border-top-left-radius: 25px ;
-  border-bottom-left-radius: 25px ;
+  border-radius: 25px;
   border-right: none;
-  width: 120px;
+  width: 300px;
   height: 24px;
   padding: 5px;
-  margin-top: px;
+  margin-top: 10px;
   border-right: none;
   border: 1px solid rgb(79, 78, 78) ;
   margin-left: 10px;
@@ -47,14 +47,11 @@
 
 #topsearch{
   border-radius: 28px ;
-  border-top: none;
-  border-bottom: none;
-  border-right-color: 1px solid rgb(79, 78, 78);
-  border-left: none;
-  width: 110px;
-  height: 36px;
+ border: none ;
+  width: 30px;
+  height: 20px;
   padding: 5px;
-  margin: 0px 0px 0px -16px; 
+  margin: 15px 100px 0px -35px; 
   background-color: white;
 }
 
@@ -220,10 +217,14 @@
     border: none;
 }
 
+.dark-blue{
+  width: 100%;
+}
+
 .beside{
     background-color:#F0F0F0;
-    margin: 80px 250px 10px 10px;
-    padding: 20px 10px;
+    width: 100%;
+    margin: 80px 250px 10px 0px;
     border-radius: 8px;
 }
 
@@ -251,10 +252,6 @@
 
 
 
-/*#{
-    
-} */
-
 
 /*CSS*/
 
@@ -262,6 +259,7 @@
   display: flex;
   background-color: #FFF4A3;
   font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 70px;
 }
 
 .yellow-sub{
@@ -277,11 +275,6 @@
   font-weight: 700;
 }
 
-/*.csslang{
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 5px 0px 30px;
-}
-*/
 
 .besides{
   background-color:#F0F0F0;
@@ -325,7 +318,7 @@
   border-radius: 18px;
   padding: 10px 0px 10px 0px;
   background-color:#FFC0C7;
-  color: white;
+  color: black;
   font-weight: 600;
   margin-bottom: 30px;
   border: none;
@@ -334,4 +327,1004 @@
 
 /*JAVASCRIPT*/
 
+.dark-blue{
+  display: flex;
+  background-color: #282A35;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 70px;
+}
 
+.dark-blue-sub{
+   display: flex;
+   flex-direction: column;
+   padding: 80px 0px 0px 300px;
+   margin: 10px 10px 10px 80px;
+}
+
+.javascript{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  color:white;
+}
+
+.js-lang{
+  color: white;
+}
+
+.besides{
+  background-color:#F0F0F0;
+  margin: 80px 250px 10px 10px;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+
+.js-ex{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   padding: 10px 5px;
+}
+
+#js{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  margin: 30px 0px;
+  color: white;
+  background-color: #04AA6D;
+  border: none;
+  font-weight: 600;
+}
+
+#js-refer{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  background-color: white ;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border: none;
+}
+
+#js-get{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  background-color:#FFC0C7;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border: none;
+}
+
+
+/*PYTHON*/
+.peach{
+  display: flex;
+  background-color: #F3ECEA;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 70px;
+}
+
+.peach-sub{
+   display: flex;
+   flex-direction: column;
+   padding: 80px 0px 0px 300px;
+   margin: 10px 10px 10px 80px;
+}
+
+.python{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+
+.besides{
+  background-color:#F0F0F0;
+  margin: 80px 250px 10px 10px;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+
+.python-ex{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   padding: 10px 5px;
+}
+
+#py{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  margin: 30px 0px;
+  color: white;
+  background-color: #04AA6D;
+  border: none;
+  font-weight: 600;
+}
+
+#p-refer{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  background-color: #282A35;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border: none;
+}
+
+#p-get{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  background-color:#FFC0C7;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border: none;
+}
+
+
+/*SQL*/
+.turqouise{
+  display: flex;
+  background-color: #96D4D4;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 70px;
+}
+
+.turqouise-sub{
+   display: flex;
+   flex-direction: column;
+   padding: 80px 0px 0px 300px;
+   margin: 10px 10px 10px 80px;
+}
+
+.sql{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+
+.besides{
+  background-color:#F0F0F0;
+  margin: 80px 250px 10px 10px;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+
+.sql-ex{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   padding: 10px 5px;
+}
+
+#lsql{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  margin: 30px 0px;
+  color: white;
+  background-color: #04AA6D;
+  border: none;
+  font-weight: 600;
+}
+
+#sql-refer{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  background-color: #282A35;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border: none;
+}
+
+#sql-get{
+  width: 180px;
+  border-radius: 18px;
+  padding: 10px 0px 10px 0px;
+  background-color:#FFC0C7;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border: none;
+}
+
+/*SIX LANGUAGES*/
+
+.dark-blue-pt{
+  width: 100%;
+  background-color: #282A35;
+}
+
+#el{
+  border-radius: 25px;
+  background-color: #282A35;
+  color: white;
+  font-weight: 600;
+  width: 180px;
+  padding: 10px 0px 10px 0px;
+  margin: 30px 0px 40px 100px;
+  border: none;
+}
+
+.dark-blue-pt-sub{
+ display: flex;
+}
+
+.beside-lang{
+  display: flex;
+}
+
+.bottom-lang{
+  display: flex;
+}
+
+
+/*PHP*/
+.php{
+  width:  850px;
+  height: 120px;
+  margin: 100px 75px 90px 75px;
+  padding: 70px 80px 90px 80px ;
+  background-color: #FFC0C7;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.phph{
+  margin-left: 150px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.aweb{
+  margin-left: 65px;
+  font-weight: 600;
+} 
+
+/*j-QUERY*/
+.jq{
+  width:  850px;
+  height: 120px;
+  margin: 100px 75px 90px 75px;
+  padding: 70px 80px 90px 80px ;
+  background-color: #FFF4A3;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jqh{
+  margin-left: 110px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.ajs{
+  margin-left: 65px;
+  font-weight: 600;
+}
+
+/*JAVA*/
+
+.java{
+  width:  850px;
+  height: 120px;
+  margin: 100px 75px 90px 75px;
+  padding: 70px 80px 90px 80px ;
+  background-color: #F0F0F0;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.javah{
+  margin-left: 130px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.apl{
+  margin-left: 75px;
+  font-weight: 600;
+} 
+
+/*C++*/
+
+.c-plus{
+  width:  850px;
+  height: 120px;
+  margin: 100px 75px 90px 75px;
+  padding: 70px 80px 90px 80px ;
+  background-color: #D9EEE1;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cph{
+  margin-left: 150px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.apg{
+  margin-left: 75px;
+  font-weight: 600;
+} 
+
+/*W3SC*/
+
+.lwc{
+  width:  850px;
+  height: 120px;
+  margin: 100px 75px 90px 75px;
+  padding: 70px 80px 90px 80px ;
+  background-color: #96D4D4;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wsch{
+  margin-left: 120px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.wcs{
+  margin-left: 25px;
+  font-weight: 600;
+} 
+
+/*BOOTSTRAP*/
+.bootstrap{
+  width:  850px;
+  height: 120px;
+  margin: 100px 75px 90px 75px;
+  padding: 70px 80px 90px 80px ;
+  background-color: #FFC0C7;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bsh{
+  margin-left: 90px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.acss{
+  margin-left: 35px;
+  font-weight: 600;
+} 
+
+
+.two-lang{
+ display: flex;
+}
+
+/*C*/
+.cee{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 80px 40px 20px 40px;
+  padding: 40px 0px;
+  border-radius: 5px;
+}
+
+.ceeh{
+  font-weight: 600;
+  text-align: center;
+}
+
+/*C#*/
+
+.she{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 80px 40px 20px 40px;
+  padding: 40px 0px;
+  border-radius: 5px;
+}
+
+.sheh{
+font-weight: 600;
+text-align: center;
+}
+
+.row-one{
+  display: flex;
+}
+
+.r{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.ray{
+  font-weight: 600;
+  text-align: center;
+}
+
+.kot{
+  background-color: #D9EEE1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.line{
+  font-weight: 600;
+  text-align: center;
+}
+
+.node{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.njs{
+  font-weight: 600;
+  text-align: center;
+}
+
+.rct{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.react{
+  font-weight: 600;
+  text-align: center;
+}
+
+.row-two{
+  display: flex;
+}
+
+.json{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.son{
+  font-weight: 600;
+  text-align: center;
+}
+
+.v{
+  background-color:#F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.vue{
+  font-weight: 600;
+  text-align: center;
+}
+
+.mysql{
+  background-color:  #D9EEE1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.mqyl{
+  font-weight: 600;
+  text-align: center;
+}
+
+.xmill{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.xml{
+  font-weight: 600;
+  text-align: center;
+}
+
+.row-three{
+  display: flex;
+}
+
+.ss{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.sa{
+  font-weight: 600;
+  text-align: center;
+}
+
+.ike{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.on{
+  font-weight: 600;
+  text-align: center;
+}
+
+.rw{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.d{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.graph{
+  background-color: #D9EEE1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.icks{
+  font-weight: 600;
+  text-align: center;
+}
+
+.row-four{
+  display: flex;
+}
+
+.svg{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.savage{
+  font-weight: 600;
+  text-align: center;
+}
+
+.can{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.vas{
+  font-weight: 600;
+  text-align: center;
+}
+
+.rasp{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.berri{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.security{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.cyb{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.row-five{
+  display: flex;
+}
+
+
+.colors{
+  background-color: #D9EEE1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.kolor{
+  font-weight: 600;
+  text-align: center;
+}
+
+.git{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.get{
+  font-weight: 600;
+  text-align: center;
+}
+
+.mpd{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.mat{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.num{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.np{
+  font-weight: 600;
+  text-align: center;
+}
+
+.row-six{
+  display: flex;
+}
+
+
+.pan{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.das{
+  font-weight: 600;
+  text-align: center;
+}
+
+.sci{
+  background-color: #D9EEE1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.spy{
+  font-weight: 600;
+  text-align: center;
+}
+
+.sap{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.asap{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.angular{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.angjs{
+  font-weight: 600;
+  text-align: center;
+}
+
+.row-seven{
+  display: flex;
+}
+
+
+.ap{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.pml{
+  font-weight: 600;
+  text-align: center;
+}
+
+.g{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.o{
+  font-weight: 600;
+  text-align: center;
+}
+
+.type{
+  background-color: #D9EEE1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.script{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.dj{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.ango{
+  font-weight: 600;
+  text-align: center;
+}
+
+.row-eight{
+  display: flex;
+}
+
+.mongo{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.db{
+  font-weight: 600;
+  text-align: center;
+}
+
+.stats{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.stics{
+  font-weight: 600;
+  text-align: center;
+}
+
+.datar{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.science{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.typing{
+  background-color: #D9EEE1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.speed{
+  font-weight: 600;
+  text-align: center;
+}
+.row-nine{
+  display: flex;
+}
+
+.how{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.to{
+  font-weight: 600;
+  text-align: center;
+}
+
+.code{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.game{
+  font-weight: 600;
+  text-align: center;
+}
+
+.spaces{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.space{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.post{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px 60px 60px 60px;
+  padding: 40px 0px ;
+  border-radius: 5px;
+}
+
+.pql{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/*ENDING DIV*/
+
+.uno{
+  display: flex;
+}
+
+.dos{
+  display: flex;
+}
+
+
+/*EXCEL*/
+.excel{
+  background-color: #96D4D4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 80px 40px 20px 40px;
+  padding: 40px 0px;
+  border-radius: 5px;
+}
+
+.exl{
+  text-align: center;
+}
+
+
+/*GOOGLE SHEETS*/
+.googles{
+  background-color: #FFF4A3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 80px 40px 20px 40px;
+  padding: 40px 0px;
+  border-radius: 5px;
+}
+
+.sheets{
+  text-align: center;
+}
+
+/*MACHINE LEARNING*/
+.ml{
+  background-color: #FFC0C7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 80px 40px 20px 40px;
+  padding: 40px 0px;
+  border-radius: 5px;
+}
+
+.machine{
+  text-align: center;
+}
+
+/*ARTIFICIAL INTELLIGENCE*/
+.ai{
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 80px 40px 20px 40px;
+  padding: 40px 0px;
+  border-radius: 5px;
+}
+
+.arti{
+ text-align: center;
+}
+
+/*THE END*/
